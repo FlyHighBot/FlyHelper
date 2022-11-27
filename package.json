@@ -1,0 +1,29 @@
+{
+  "name": "fly-helper",
+  "version": "1.0.0",
+  "description": "A bot to help FlyHigh servers in various functions!",
+  "main": "app.js",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord-logs": "^2.0.1",
+    "discord.js": "^13.2.0",
+    "dotenv": "^8.2.0",
+    "extract-colors": "^1.1.17",
+    "fs": "^0.0.2",
+    "humanize-duration": "^3.27.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "node-cron": "^3.0.0",
+    "npm": "^7.19.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
