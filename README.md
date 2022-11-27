@@ -15,9 +15,9 @@ Ele também responde questões relacionadas aos servidores da Rede Dark no servi
 
 Você pode adicionar novas respostas ao Fly Helper seguindo estas etapas:
 
-* Em primeiro lugar, você precisa criar um arquivo com uma nova classe, extendendo a classe `ServerResponse`, com um nome que possa descrever qual é a sua resposta, algo como `ProfileBackgroundResponse.js`, na pasta `FlyHelper/responses/{guild}/Name.js`.
+* Em primeiro lugar, você precisa criar um arquivo com uma nova classe, extendendo a classe `ServerResponse`, com um nome que possa descrever qual é a sua resposta, algo como `ProfileBackgroundResponse.js`, na pasta `FlyHelper/app/responses/{guild}/Name.js`.
 
-* Vamos supor que você crie uma resposta que irá responder às pessoas sobre como ganhar Fly Coins. O nome deve ser algo parecido `HowToGetCoinsResponse` ou relacionado, e você deve criar o arquivo na pasta `FlyHelper/responses/support`.
+* Vamos supor que você crie uma resposta que irá responder às pessoas sobre como ganhar Fly Coins. O nome deve ser algo parecido `HowToGetCoinsResponse` ou relacionado, e você deve criar o arquivo na pasta `FlyHelper/app/responses/support`.
 
 * O Fly detecta as perguntas usando [RegEx](https://en.wikipedia.org/wiki/Regular_expression), e isso exige alguns materiais que recomendamos:
 
