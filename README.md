@@ -50,4 +50,4 @@ E então ao terminar esses processo, a sua resposta será adicionada automática
 
 ## License
 
-This repository is under the [AGPL-3.0](https://github.com/KuraminhaBot/KuramaHelper/blob/main/LICENSE) license.
+This repository is under the [AGPL-3.0](https://github.com/FlyHighBot/fly-helper/blob/master/LICENSE) license.
