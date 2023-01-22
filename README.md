@@ -3,8 +3,6 @@
 
 O bot que responde automaticamente **QUASE** todas as perguntas sobre o FlyHigh em seu servidor de suporte.
 
-Ele também responde questões relacionadas aos servidores da Rede Dark no servidor comunidade.
-
 ## Informação
 
 * Esse bot é privado, mas você pode [self-hostear](https://en.wikipedia.org/wiki/Self-hosting_(web_services)) ele no seu servidor.
@@ -41,7 +39,7 @@ var patterns = [
 ```js
 async run(client, message) {
     message.build(
-        message.flyReply("você pode ganhar **__Fly Coins__**.... Dormindo! kkkkk brincadeirinha! Existe uma maneira muito simples de ganhar **__Fly Coins__**, apenas coletando payday! E você pode gastar por exemplo, apostando `^-^`!", "737016551433043998")
+        message.flyReply("Existe uma maneira muito simples de ganhar **__Fly Coins__**, apenas coletando payday! E você pode gastar por exemplo, apostando `^-^`!", "737016551433043998")
     )
 }
 ```
