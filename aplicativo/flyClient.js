@@ -41,7 +41,6 @@ module.exports = class flyClient{
       })
     });
   }
-
   loadEvents(index = 'app/events') {
     const evtFiles = readdirSync(index);
     console.log("[EVENTS]", `Carregando o total de ${evtFiles.length} eventos`);
