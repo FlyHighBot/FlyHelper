@@ -1,4 +1,5 @@
 const ServerResponse = require("../../src/structures/serverResponses")
+
 var patterns = [
   "(bota|adicion(a|o)|coloc(a|o)|poe|convid(o|a))r?",
   "(a|o|u)?",
