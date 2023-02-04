@@ -6,7 +6,7 @@ module.exports = class flyClient{
   constructor(client) {
     this.client = client
 
-    client.support = client.guilds.cache.get("696919133551591496")
+    client.support = client.guilds.cache.get("")
     client.guild = client.guilds.cache.get("696919133551591496")
     client.owner = client.users.cache.get("557355064864538624")
 
