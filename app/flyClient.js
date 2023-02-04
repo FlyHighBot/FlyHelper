@@ -8,7 +8,7 @@ module.exports = class flyClient{
 
     client.support = client.guilds.cache.get("")
     client.guild = client.guilds.cache.get("")
-    client.owner = client.users.cache.get("557355064864538624")
+    client.owner = client.users.cache.get("")
 
     client.slashCommands = new Discord.Collection()
     client.constants = require('./src/utils/Constants')
