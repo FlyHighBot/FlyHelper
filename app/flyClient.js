@@ -19,7 +19,7 @@ module.exports = class flyClient{
   
   loadCommands(index = 'app/commands') {
     const cmdFiles = readdirSync(index);
-    console.log(`[CMD-LOAD] O total de ${cmdFiles.length} comandos foram carregados!`);
+    console.log(`[CMD-LOAD] ${cmdFiles.length} comandos foram carregados!`);
 
     cmdFiles.forEach(folder => {
       readdirSync(`${index}/${folder}`).forEach(f => {
