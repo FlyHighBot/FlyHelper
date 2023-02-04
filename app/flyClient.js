@@ -144,7 +144,7 @@ module.exports = class flyClient{
 
   loadSystem(index = 'app/src/systems') {
     const sytFiles = readdirSync(index);
-    console.log("[SYSTEMS]", `Carregando o total de ${sytFiles.length} eventos`);
+    console.log("[SYSTEMS]", `Carregando ${sytFiles.length} eventos`);
     sytFiles.forEach(f => {
       const system = require(`./src/systems/${f}`);
       if (system.config.disable) return;
