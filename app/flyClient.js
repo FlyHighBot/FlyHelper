@@ -7,7 +7,7 @@ module.exports = class flyClient{
     this.client = client
 
     client.support = client.guilds.cache.get("")
-    client.guild = client.guilds.cache.get("696919133551591496")
+    client.guild = client.guilds.cache.get("")
     client.owner = client.users.cache.get("557355064864538624")
 
     client.slashCommands = new Discord.Collection()
