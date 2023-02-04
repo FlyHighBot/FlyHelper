@@ -44,7 +44,7 @@ module.exports = class flyClient{
   
   loadEvents(index = 'app/events') {
     const evtFiles = readdirSync(index);
-    console.log("[EVENTS]", `Carregando o total de ${evtFiles.length} eventos`);
+    console.log("[EVENTS]", `Carregando ${evtFiles.length} eventos`);
     evtFiles.forEach(f => {
       const eventName = f.split(".")[0];
       const event = require(`./events/${f}`);
