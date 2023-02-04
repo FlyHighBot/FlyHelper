@@ -55,7 +55,7 @@ module.exports = class flyClient{
   
   loadResponses(index = 'app/responses') {
     const cmdFiles = readdirSync(index);
-    console.log(`[RESPONSES-LOAD] O total de ${cmdFiles.length} respostas foram carregadas!`);
+    console.log(`[RESPONSES-LOAD] ${cmdFiles.length} respostas foram carregadas!`);
 
     cmdFiles.forEach(folder => {
       readdirSync(`${index}/${folder}`).forEach(f => {
