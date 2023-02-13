@@ -4,7 +4,8 @@
 O bot que responde automaticamente **QUASE** todas as perguntas sobre o FlyHigh em seu servidor de suporte.
 
 ## Informação
-
+* Essa é apenas uma versão auxiliar do servidor de suporte da Rede FlyHigh.
+  * FlyHigh é um bot de código fechado, portanto não está disponível sua source.
 * Esse bot é privado, mas você pode [self-hostear](https://en.wikipedia.org/wiki/Self-hosting_(web_services)) ele no seu servidor.
 * Não consideraremos pull requests que não sejam úteis.
 * Se você quiser ajuda com a contribuição, pode perguntar para alguém com o cargo de "Fly Admin" no servidor da [suporte](), eles sabem muito bem como ajudá-lo.
@@ -45,6 +46,7 @@ async run(client, message) {
 ```
 
 E então ao terminar esses processo, a sua resposta será adicionada automáticamente. Se ainda não entendeu, tente estudar as respostas que já foram adicionadas.
+
 
 ## License
 
