@@ -29,4 +29,4 @@ const fly = new flyClient(client)
 client.on("error", (e) => console.error(e));
 
 client.login(process.env.AUTH_TOKEN).then(() => console.log(`[CONNECT] ${client.user.username} is online.`))
-	.catch((e) => console.log(`[ERROR] Failure connecting to Discord! ${e.message}!`))
+.catch((e) => console.log(`[ERROR] Failure connecting to Discord! ${e.message}!`))
