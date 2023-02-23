@@ -22,7 +22,7 @@ const fly = new flyClient(client)
   fly.loadEvents()
   fly.loadCommands()
   fly.loadSlashs()
-  fly.loadSubCommands()
+ fly.loadSubCommands()
  fly.loadResponses()
  fly.loadSystem()
 
