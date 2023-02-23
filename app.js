@@ -23,7 +23,7 @@ const fly = new flyClient(client)
   fly.loadCommands()
   fly.loadSlashs()
   fly.loadSubCommands()
-  fly.loadResponses()
+ fly.loadResponses()
  fly.loadSystem()
 
 client.on("error", (e) => console.error(e));
