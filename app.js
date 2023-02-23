@@ -21,7 +21,7 @@ require('discord-logs')(client);
 const fly = new flyClient(client)
   fly.loadEvents()
   fly.loadCommands()
-  fly.loadSlashs()
+ fly.loadSlashs()
  fly.loadSubCommands()
  fly.loadResponses()
  fly.loadSystem()
