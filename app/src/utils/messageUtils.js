@@ -38,7 +38,7 @@ module.exports.stackFAQ = async (message, title, channelID) => {
           newText = newText.slice(newText.length-1, 100)
           embeds.push(activeEmbed)
           activeEmbed = new MessageEmbed()
-          .setColor(`#FF6E02`)
+         .setColor(`#FF6E02`)
         }
         
         activeEmbed.setDescription(newText.join(`\n`))
