@@ -18,7 +18,7 @@ module.exports = class StaffResponse extends ServerResponse {
   
   async run(client, message) {
     message.build(
-      message.flyReply(`não existe uma fórmula secreta e nem um método de virar **Administrador** do dia para noite (isso só acontece em casos raros). Mas você pode continuar sendo você mesmo e dando o melhor de si! ${checkEmoji(client, "826430685195665419")}`, "826431055161983026"),
+      message.flyReply(`Não existe uma fórmula secreta e nem um método de virar **Administrador** do dia para noite (isso só acontece em casos raros). Mas você pode continuar sendo você mesmo e dando o melhor de si! ${checkEmoji(client, "826430685195665419")}`, "826431055161983026"),
     )
   }
 }
