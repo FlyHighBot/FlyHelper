@@ -3,7 +3,7 @@ module.exports = async (client, message) => {
 
   if (message.guild && !message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "VIEW_CHANNEL"])) return;
   if (message.author.bot || message.author.system) return;
-  
+ 
   if (message.content === `${prefix}restart` && message.author.id === '361977144445763585') {
     await message.ffSend(`Reiniciando! Recarregando todos os meus comandos.`, "826413426100011028")
       .then(message => client.destroy()).catch(err => console.log(err))
@@ -36,7 +36,7 @@ module.exports = async (client, message) => {
       return message.ffSend(`Alguma coisa deu extremamente errada ao executar este comando... Desculpe pela inconveniência. \`${err}\``, "813179670270967819");
     }
   }
-  
+ 
   if (message.content.toLowerCase().indexOf(prefix) !== 0) return
   
   const args = message.content.slice(prefix.length).trim().split(/ +/g)
