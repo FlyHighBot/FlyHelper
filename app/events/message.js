@@ -17,7 +17,7 @@ module.exports = async (client, message) => {
 
   message.guild.type = type, client.owner = client.users.cache.get("557355064864538624"), client.guild = client.guilds.cache.get("707960646020366387"), client.support = client.guilds.cache.get("769892417025212497"), client.prefix = process.env.PREFIX
 
- 
+
   if (type && !message.content.toLowerCase().startsWith(prefix)) {
     console.log(client.constants.ALLOWED_CHANNELS)
     if (!client.constants.ALLOWED_CHANNELS.includes(message.channel.id)) return;
