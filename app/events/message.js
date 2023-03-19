@@ -1,6 +1,5 @@
 module.exports = async (client, message) => {
   let prefix = process.env.PREFIX, type = false
-
   if (message.guild && !message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "VIEW_CHANNEL"])) return;
   if (message.author.bot || message.author.system) return;
   console.log(guild)
