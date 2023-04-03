@@ -16,7 +16,7 @@ module.exports = async (client, message) => {
   if (message.guild.id == process.env.SUPPORT_GUILD) type = "support"
   if (message.guild.id == process.env.COMMUNITY_GUILD) type = "community"
 
-  message.guild.type = type, client.owner = client.users.cache.get(""), client.guild = client.guilds.cache.get("417061847489839106"), client.support = client.guilds.cache.get("769892417025212497"), client.prefix = process.env.PREFIX
+  message.guild.type = type, client.owner = client.users.cache.get(""), client.guild = client.guilds.cache.get(""), client.support = client.guilds.cache.get("769892417025212497"), client.prefix = process.env.PREFIX
 
   
   if (type && !message.content.toLowerCase().startsWith(prefix)) {
