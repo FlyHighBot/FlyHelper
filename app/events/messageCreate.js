@@ -8,7 +8,7 @@ module.exports = async (client, message) => {
     await message.ffSend(`Reiniciando! Recarregando todos os meus comandos.`)
       .then(message => client.destroy()).catch(err => console.log(err))
       .then(() => client.login(process.env.AUTH_TOKEN)).catch(err => console.log(err))
-      .then(() => message.ffSend(`Voltei! Iniciado com ${client.users.cache.size} usuários, em ${client.channels.cache.size} canais, em ${client.guilds.cache.size} servidores.`, "826414452969963520")).catch(err => console.log(err));
+      .then(() => message.ffSend(`Voltei! Iniciado com ${client.users.cache.size} usuários, em ${client.channels.cache.size} canais, em ${client.guilds.cache.size} servidores.`)).catch(err => console.log(err));
     console.log('[RESTART] Desconectando - Processo forçado pelo dono.');
     process.exit();
   }
