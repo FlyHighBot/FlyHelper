@@ -33,7 +33,7 @@ module.exports = async (client, message) => {
     try {
       response.run(client, message)
     } catch(err) {
-      return message.ffSend(`Alguma coisa deu extremamente errada ao executar este comando... Desculpe pela inconveniência. \`${err}\``, "813179670270967819");
+      return message.ffSend(`Alguma coisa deu extremamente errada ao executar este comando... Desculpe pela inconveniência. \`${err}\``);
     }
   }
  
