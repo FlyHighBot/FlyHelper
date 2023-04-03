@@ -5,7 +5,7 @@ module.exports = async (client, message) => {
   if (message.author.bot || message.author.system) return;
  
   if (message.content === `${prefix}restart` && message.author.id === '') {
-    await message.ffSend(`Reiniciando! Recarregando todos os meus comandos.`, "826413426100011028")
+    await message.ffSend(`Reiniciando! Recarregando todos os meus comandos.`)
       .then(message => client.destroy()).catch(err => console.log(err))
       .then(() => client.login(process.env.AUTH_TOKEN)).catch(err => console.log(err))
       .then(() => message.ffSend(`Voltei! Iniciado com ${client.users.cache.size} usuários, em ${client.channels.cache.size} canais, em ${client.guilds.cache.size} servidores.`, "826414452969963520")).catch(err => console.log(err));
@@ -16,7 +16,7 @@ module.exports = async (client, message) => {
   if (message.guild.id == process.env.SUPPORT_GUILD) type = "support"
   if (message.guild.id == process.env.COMMUNITY_GUILD) type = "community"
 
-  message.guild.type = type, client.owner = client.users.cache.get("361977144445763585"), client.guild = client.guilds.cache.get("417061847489839106"), client.support = client.guilds.cache.get("769892417025212497"), client.prefix = process.env.PREFIX
+  message.guild.type = type, client.owner = client.users.cache.get(""), client.guild = client.guilds.cache.get("417061847489839106"), client.support = client.guilds.cache.get("769892417025212497"), client.prefix = process.env.PREFIX
 
   
   if (type && !message.content.toLowerCase().startsWith(prefix)) {
