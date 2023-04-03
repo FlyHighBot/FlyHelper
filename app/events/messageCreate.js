@@ -4,7 +4,7 @@ module.exports = async (client, message) => {
   if (message.guild && !message.guild.me.permissionsIn(message.channel).has(["SEND_MESSAGES", "VIEW_CHANNEL"])) return;
   if (message.author.bot || message.author.system) return;
  
-  if (message.content === `${prefix}restart` && message.author.id === '361977144445763585') {
+  if (message.content === `${prefix}restart` && message.author.id === '') {
     await message.ffSend(`Reiniciando! Recarregando todos os meus comandos.`, "826413426100011028")
       .then(message => client.destroy()).catch(err => console.log(err))
       .then(() => client.login(process.env.AUTH_TOKEN)).catch(err => console.log(err))
