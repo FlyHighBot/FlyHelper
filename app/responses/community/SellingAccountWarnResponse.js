@@ -16,7 +16,7 @@ module.exports = class SellingAccountWarnResponse extends ServerResponse {
   
   async run(client, message) {
     message.build(
-      message.flyReply("epa, alguém ai querendo **vender/comprar** contas? Espera ai amigo, antes de comprar qualquer coisa é preciso verificar algumas coisinhas:", "826435905769308240"),
+      message.flyReply("Epa, alguém ai querendo **vender/comprar** contas? Espera ai amigo, antes de comprar qualquer coisa é preciso verificar algumas coisinhas:", "826435905769308240"),
       message.flyReply("**Primeiro de tudo, compre por locais onde você pode abrir disputas ou reembolsar:** Nós recomendamos plataformas como PayPal ou MercadoPago;", "826430829181141062", false),
       message.flyReply("**Peça prints e provas de que a conta realmente pertença a pessoa:** Você pode fazer isso pedindo as pessoas prints dela em jogo, mensagens no chat do servidor e etc;", "826431055161983026", false),
       message.flyReply("**Procure um Administrador para caso você tenha alguma suspeita sobre a compra:** Se a pessoa parecer suspeita, peça ajuda à um administrador antes de comprar;", "826414885659344896", false),
