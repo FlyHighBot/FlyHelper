@@ -14,7 +14,7 @@ module.exports = class NotifyNewsCommand extends SlashCommand {
 
   async run(client, interaction, context) {
     var member = context.guild.getMember(context.author)
-    var notifyRole = "769895515860631583"
+    var notifyRole = ""
     
     if (member.roles.cache.has(notifyRole)) {
       member.roles.remove(notifyRole)
