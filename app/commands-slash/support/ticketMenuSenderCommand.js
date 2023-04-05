@@ -52,7 +52,6 @@ module.exports = class TicketMenuSenderCommand extends SlashCommand {
           new Discord.MessageEmbed()
               .setColor(client.constants.FLY_COLOR)
               .setTitle("<:fly_coffee:826415473775869962> Central de Ajuda")
-              .setThumbnail("https://cdn.discordapp.com/emojis/826430206487166996.png")
               .setDescription([
                 `${checkEmoji(client, "826430254084128829")} **|** Precisando resolver um problema relacionado à mentores no servidor? Veio até o chat certo então!`,
                 `${checkEmoji(client, "826430829181141062")} **|** Para iniciar o seu pedido de re-adicionar o mentor, clique no botão abaixo! Lembre-se de estar com tudo pronto para enviar o seu ticket!`,
@@ -74,7 +73,6 @@ module.exports = class TicketMenuSenderCommand extends SlashCommand {
           new Discord.MessageEmbed()
               .setColor(client.constants.FLY_COLOR)
               .setTitle("<:fly_coffee:826415473775869962> Central de Denúncias")
-              .setThumbnail("https://cdn.discordapp.com/emojis/826413534358274108.png")
               .setDescription([
                 `${checkEmoji(client, "828360789529985066")} **|** Precisando resolver um problema relacionado à denúncias no servidor? Veio até o chat certo então!`,
                 `${checkEmoji(client, "826430206487166996")} **|** Para iniciar o seu report, selecione um servidor no **Menu** e depois selecione a opção "Abrir ticket de denúncia"! Lembre-se de estar com tudo pronto para enviar o seu ticket!`,
