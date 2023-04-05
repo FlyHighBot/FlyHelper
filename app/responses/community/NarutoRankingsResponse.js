@@ -19,7 +19,7 @@ module.exports = class NarutoRankingsResponse extends ServerResponse {
   run(client, message) {
     message.build(
       message.flyReply("Com dúvidas sobre o FlyHigh? Pegue o cargo <@&> no <#> para obter acesso ao canal de Dúvidas Frequentes.", "828360658159927316"),
-      message.flyReply("Após obter o cargo você pode tirar as dúvidas de rankings neste canal aqui <#716065542741426216>.", "779445435085357116", false),
+      message.flyReply("Após obter o cargo você pode tirar as dúvidas de rankings neste canal aqui <#>.", "779445435085357116", false),
       message.flyReply("Sua dúvida é sobre outras sagas? Neste canal aqui <#702147193217220628> você pode ver nossos FAQ's de ajuda de sagas.", "802214533367332935", false),
       `{ "option": { "allowedMentions": { "roles": ["812686310472679494"], "users": ["${message.author.id}"] } } }`
     )
