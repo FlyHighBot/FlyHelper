@@ -21,7 +21,7 @@ module.exports = class SellingAccountWarnResponse extends ServerResponse {
       message.flyReply("**Peça prints e provas de que a conta realmente pertença a pessoa:** Você pode fazer isso pedindo as pessoas prints dela em jogo, mensagens no chat do servidor e etc;", "826431055161983026", false),
       message.flyReply("**Procure um Administrador para caso você tenha alguma suspeita sobre a compra:** Se a pessoa parecer suspeita, peça ajuda à um administrador antes de comprar;", "826414885659344896", false),
       message.flyReply("**NÃO transfira todo o dinheiro da transação, negocie com pessoas que aceitem a metade do pagamento antes de concluir tudo:** Pague o resto após trocar a conta, e se você estiver vendendo e for roubado por causa disso, peça um Administrador para trocar a senha da sua conta.\n", "826416082012733460", false),
-      message.flyReply("Acho que é isso galera, tomem cuidado, beijos do FlyHigh uwu.", "826430829181141062", false)
+      message.flyReply("Acho que é isso galera, tomem cuidado, beijos do FlyHigh", "826430829181141062", false)
     )
   }
 }
