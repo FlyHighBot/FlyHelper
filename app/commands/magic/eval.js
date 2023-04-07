@@ -15,7 +15,7 @@ module.exports = {
     if (message.author !== client.owner) return message.ffReply("apenas pessoas especiais podem utilizar esse comando :3", "557355064864538624");
     if (!code) return message.ffReply('Está faltando os argumentos, esqueceu disso?', "826415473775869962")
     if (!code.includes("return") && code.includes("await")) code = `return ${code}`
-    
+
     process.env.TOKEN = "[Secret Token]"
   
     try {
