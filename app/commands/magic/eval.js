@@ -12,7 +12,7 @@ const fs = require('fs');
 
 module.exports = {
   run: async (client, message, args) => {
-    
+
     var code = args.join(" "), evaled, originalEval, guild = message.guild, channel = message.channel, author = message.author, bot = client.user
     if (message.author !== client.owner) return message.ffReply("apenas pessoas especiais podem utilizar esse comando :3", "557355064864538624");
     if (!code) return message.ffReply('Está faltando os argumentos, esqueceu disso?', "826415473775869962")
