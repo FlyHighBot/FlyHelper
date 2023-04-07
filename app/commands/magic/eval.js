@@ -72,7 +72,7 @@ module.exports = {
   },
   
   conf: {},
-  
+ 
   get help() {
     return {
       name: "eval",
