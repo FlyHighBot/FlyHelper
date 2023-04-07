@@ -4,7 +4,6 @@ const { checkEmoji } = require('../../src/utils/checkEmoji.js')
 const { Constants } = require("../../src/utils/Constants.js");
 const RoleButtons = require("../../src/utils/RoleButtons");
 const Util = require('../../src/utils/Util.js');
-
 const humanizeDuration = require("humanize-duration");
 const Discord = require('discord.js');
 const moment = require('moment');
