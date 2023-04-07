@@ -17,7 +17,7 @@ module.exports = {
     if (!code.includes("return") && code.includes("await")) code = `return ${code}`
 
     process.env.TOKEN = "[Secret Token]"
-  
+ 
     try {
       code = code.replace(/(client.token)/ig, "\"[Secret Token]\"")
       
