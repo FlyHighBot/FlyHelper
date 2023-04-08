@@ -5,7 +5,7 @@ const Discord = require('discord.js')
 module.exports = class SlashCommands {
   constructor(client, options) {
     this.client = client
-    
+   
     var onlyGuild = (options.onlyGuild || options.onlyguild || options.onlyGuilds || options.onlyguilds)
     
     this.config = {
