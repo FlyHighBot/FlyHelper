@@ -21,7 +21,7 @@ module.exports = async (client, interaction) => {
 
   if (cmd.conf.onlyDevs && !context.author.isDev()) 
     return interaction.ffReply("Apenas pessoas especiais podem utilizar este comando", "858430303143591936", {ephemeral: true})
-  
+ 
   if (cmd.conf.onlyStaff && !context.author.isStaff())
     return interaction.ffReply("Apenas pessoas especiais podem utilizar este comando", "858430303143591936", {ephemeral: true})  
 
