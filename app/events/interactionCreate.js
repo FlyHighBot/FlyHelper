@@ -3,7 +3,7 @@ module.exports = async (client, interaction) => {
   
   var cmd = client.slashCommands.get(interaction.commandName)
 
-  if (interaction.isSubCommand()) 
+  if (interaction.isSubCommand())
     cmd = client.subCommands.find(it => it.help.name == interaction.options._subcommand)
  
   var context = {
