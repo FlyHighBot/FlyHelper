@@ -5,7 +5,7 @@ module.exports = async (client, interaction) => {
 
   if (interaction.isSubCommand())
     cmd = client.subCommands.find(it => it.help.name == interaction.options._subcommand)
-   
+    
   var context = {
     message: interaction.message || null,
     guild: interaction.channel.guild || null,
