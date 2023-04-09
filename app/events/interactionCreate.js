@@ -5,7 +5,7 @@ module.exports = async (client, interaction) => {
 
   if (interaction.isSubCommand())
     cmd = client.subCommands.find(it => it.help.name == interaction.options._subcommand)
-
+   
   var context = {
     message: interaction.message || null,
     guild: interaction.channel.guild || null,
@@ -13,7 +13,7 @@ module.exports = async (client, interaction) => {
     args: this.message ? this.message.content : null,
     author: interaction.user
   }
-
+  
   if (!cmd) return interaction.ffReply("Acho que isso não é um comando...", "813179670270967819")
 
   if (cmd.conf.onlyGuilds && !interaction.inGuild()) 
