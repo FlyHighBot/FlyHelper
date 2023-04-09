@@ -1,4 +1,4 @@
-module.exports = async (client, interaction) => { 
+module.exports = async (client, interaction) => {
   if (!interaction.isCommand()) return;
  
   var cmd = client.slashCommands.get(interaction.commandName)
