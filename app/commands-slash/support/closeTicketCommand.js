@@ -16,6 +16,6 @@ module.exports = class closeTicketCommand extends SlashCommand {
       return interaction.ffReply("Safad! Você nem tá numa thread pra fechar algum ticket!", "826416082012733460", {ephemeral: true})
     
     interaction.ffReply(`Ticket encerrado por ${interaction.user.toString()}, obrigado e até a próxima!`, "869310000768614400", false)
-     .then(it => interaction.channel.setArchived(true))
+    .then(it => interaction.channel.setArchived(true))
   }
 }
