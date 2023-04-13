@@ -10,7 +10,7 @@ module.exports = class closeTicketCommand extends SlashCommand {
       devGuild: true
     })
   }
-    
+   
   async run(client, interaction, context) {
     if (!interaction.channel.type.includes("THREAD")) 
       return interaction.ffReply("Safad! Você nem tá numa thread pra fechar algum ticket!", "826416082012733460", {ephemeral: true})
