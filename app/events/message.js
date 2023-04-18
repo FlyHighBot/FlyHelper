@@ -35,7 +35,7 @@ module.exports = async (client, message) => {
       return message.ffSend(`Alguma coisa deu extremamente errada ao executar este comando... Desculpe pela inconveniência. \`${err}\``, "813179670270967819");
     }
   }
-  
+ 
   if (message.content.toLowerCase().indexOf(prefix) !== 0) return
  
   const args = message.content.slice(prefix.length).trim().split(/ +/g)
