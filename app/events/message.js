@@ -11,7 +11,7 @@ module.exports = async (client, message) => {
     console.log('[RESTART] Desconectando - Processo forçado pelo dono.');
     process.exit();
   }
-  
+ 
   if (message.guild.id == process.env.SUPPORT_GUILD) type = "support"
   if (message.guild.id == process.env.COMMUNITY_GUILD) type = "community"
 
