@@ -36,7 +36,7 @@ module.exports = {
       }
     }
   },
-
+   
   createTicket: async (client, interaction, emoji = "📨") => {
     var user = interaction.user, channel = interaction.channel
 
