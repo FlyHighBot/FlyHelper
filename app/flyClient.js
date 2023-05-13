@@ -5,7 +5,6 @@ const { readdirSync } = require('fs')
 module.exports = class flyClient{
   constructor(client) {
     this.client = client
-
     client.support = client.guilds.cache.get("")
     client.guild = client.guilds.cache.get("")
     client.owner = client.users.cache.get("")
