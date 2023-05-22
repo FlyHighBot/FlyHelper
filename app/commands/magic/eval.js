@@ -8,7 +8,7 @@ const humanizeDuration = require("humanize-duration");
 const Discord = require('discord.js');
 const moment = require('moment');
 const fs = require('fs');
-
+ 
 module.exports = {
   run: async (client, message, args) => {
     var code = args.join(" "), evaled, originalEval, guild = message.guild, channel = message.channel, author = message.author, bot = client.user
