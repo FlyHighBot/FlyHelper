@@ -1,6 +1,6 @@
 require('dotenv').config();                                   
 require('./app/src/structures/ProtoTypes').start();  
-  
+
 const Discord = require('discord.js');
 const flyClient = require('./app/flyClient.js')
 const client = new Discord.Client({intents: ['GUILDS', 'GUILD_MESSAGES', 'GUILD_PRESENCES', 'GUILD_MEMBERS']})
