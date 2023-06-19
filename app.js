@@ -1,5 +1,5 @@
 require('dotenv').config();                                   
-require('./app/src/structures/ProtoTypes').start(); 
+require('./app/src/structures/ProtoTypes').start();
 
 const Discord = require('discord.js');
 const flyClient = require('./app/flyClient.js')
