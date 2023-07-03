@@ -1,6 +1,6 @@
 const Discord = require("discord.js");    
 const fs = require('fs'); 
-const { readdirSync } = require('fs') 
+const { readdirSync } = require('fs')
 
 module.exports = class flyClient{
   constructor(client) {
