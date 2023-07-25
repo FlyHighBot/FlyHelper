@@ -1,5 +1,5 @@
 const ServerResponse = require("../../src/structures/serverResponses")
-    
+     
 var patterns = [
   "ganha|o?( )que|recebe",
   "dando|(se )?(der|dar)",
