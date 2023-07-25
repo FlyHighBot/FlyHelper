@@ -6,7 +6,7 @@ var patterns = [
   "(nitro |)bo{2}st",
   "aqui|"
 ]
-   
+    
 module.exports = class BoostRewardsResponse extends ServerResponse {
   constructor(client) {
     super(client, patterns, {
