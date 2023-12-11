@@ -1,4 +1,4 @@
-<h1 align="center">FlyHelper</h1> 
+<h1 align="center">FlyHelper</h1>
 <img height="250" src="https://cdn.discordapp.com/attachments/852362152370896926/1046472708914937856/constru.png" align="right">
 
 O bot que responde automaticamente **QUASE** todas as perguntas sobre o FlyHigh em seu servidor de suporte.
