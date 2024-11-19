@@ -11,7 +11,7 @@ O bot que responde automaticamente **QUASE** todas as perguntas sobre o FlyHigh 
 * Se você quiser ajuda com a contribuição, pode perguntar para alguém com o cargo de "Fly Admin" no servidor da [suporte](), eles sabem muito bem como ajudá-lo.
 
 ## Contribuindo
-
+ 
 Você pode adicionar novas respostas ao FlyHelper seguindo estas etapas:
 
 * Em primeiro lugar, você precisa criar um arquivo com uma nova classe, extendendo a classe `ServerResponse`, com um nome que possa descrever qual é a sua resposta, algo como `ProfileBackgroundResponse.js`, na pasta `FlyHelper/app/responses/{guild}/Name.js`.
